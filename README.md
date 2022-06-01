@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
+->> Mobile View
 ![](./screenshot/mobile-view.png)
-Mobile View
 
+->> Desktop View
 ![](./screenshot/desktop-view.png)
-Desktop View
 
 ### Links
 
