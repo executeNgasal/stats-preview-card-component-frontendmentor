@@ -1,0 +1,80 @@
+/* ------------------------ Mobile Size (max-width: 768px) ------------------------- */
+.container {
+  min-width: 20.438em;
+  min-height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-block: 4em;
+}
+
+.card {
+  width: clamp(80vw, 26.75em, 90%);
+  text-align: center;
+  border-radius: 0.438em;
+}
+
+.card-img {
+  max-width: 48em;
+  height: calc(15em + 1.5em);
+  border-radius: inherit inherit 0 0;
+  background-color: rgba(170, 92, 219);
+  background-position: top;
+  background-size: cover;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0.7;
+  mix-blend-mode: multiply;
+}
+
+.card-texts {
+  padding: 2.5em 1.875em;
+}
+
+.landing-texts h1 {
+  font-size: var(--m-fs-main);
+}
+
+.landing-texts p {
+  font-size: var(--d-m-fs-sub-landing);
+  margin-top: 1.25em;
+  line-height: 1.5;
+}
+
+.stat-texts {
+  flex-direction: column;
+  margin-top: 2.875em;
+  text-transform: uppercase;
+  gap: 2.188em;
+}
+
+.stat-texts h2 {
+  font-size: var(--m-fs-stat);
+  letter-spacing: 0.0625rem;
+}
+
+.stat-texts span {
+  font-size: var(--d-m-fs-sub-stat);
+  flex-direction: column;
+  padding-top: 0.813em;
+}
+
+.copyright {
+  font-size: var(--d-m-fs-copy);
+  width: 100%;
+  height: 3em;
+  position: absolute;
+  bottom: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .3em;
+}
+
+.copyright a {
+  color: hsl(278, 85%, 49%);
+}

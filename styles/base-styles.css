@@ -1,0 +1,55 @@
+/* ------------------------ Base Styles ------------------------- */
+body {
+  min-height: 100vh;
+  font-size: 15px;
+}
+.flex {
+  display: flex;
+}
+
+body,
+.container {
+  background-color: var(--clr-container-bg);
+}
+
+.card {
+  background-color: var(--clr-card-bg);
+}
+
+.landing-texts,
+.stat-texts span,
+.copyright {
+  font-family: "Inter", sans-serif;
+}
+
+.stat-texts {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.landing-texts h1,
+.stat-texts h2 {
+  font-weight: 600;
+}
+
+.landing-texts p,
+.stat-texts span {
+  font-weight: 300;
+}
+
+.landing-texts h1,
+.stat-texts h2,
+.copyright {
+  color: var(--clr-main);
+}
+
+.purple-text {
+  color: var(--clr-accent);
+}
+
+.landing-texts p {
+  color: var(--clr-sub-landing);
+}
+
+.stat-texts span {
+  color: var(--clr-stat-txt);
+}

@@ -1,0 +1,41 @@
+/*--------------------- Fonts ---------------------------- */
+/* Inter (Heading) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+/* Lexend Deca (Testimonial) */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+/* --------------------- Colors ---------------------------- */
+/* Primary */
+:root {
+  --clr-container-bg: hsl(233, 47%, 7%);
+  --clr-card-bg: hsl(244, 38%, 16%);
+  --clr-accent: hsl(277, 64%, 61%);
+}
+
+/* Neutral */
+:root {
+  --clr-main: hsl(0, 0%, 100%);
+  --clr-sub-landing: hsla(0, 0%, 100%, 0.75);
+  --clr-stat-txt: hsla(0, 0%, 100%, 0.6);
+}
+
+/* ------------------------ Typography ------------------------- */
+/* Desktop Size */
+:root {
+  --d-fs-main: 2.4rem;
+  --d-fs-stat: 1.248rem;
+}
+
+/* Mobile Size */
+:root {
+  --m-fs-main: 1.6rem;
+  --m-fs-stat: 1.2rem;
+}
+
+/* Desktop & Mobile */
+:root {
+  --d-m-fs-copy: 0.734rem;
+  --d-m-fs-sub-landing: 0.853rem;
+  --d-m-fs-sub-stat: 0.8rem;
+}

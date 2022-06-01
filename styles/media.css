@@ -1,0 +1,59 @@
+/* ------------------------ Tablet Size (width: 560px - 768px) ------------------------- */
+@media screen and (min-width: 35em) {
+  .card {
+    max-width: clamp(80vw, 100%, 90%);
+  }
+
+  .card-img {
+    max-width: 70em;
+    height: calc(18em + 2em);
+  }
+
+  .card-texts {
+    padding: 2.5em;
+  }
+
+  .stat-texts {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+/* ------------------------ Desktop Size (width: 1120px - 1440px) ------------------------- */
+@media screen and (min-width: 70em) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    max-width: 70em;
+    height: 27.875em;
+  }
+
+  .card-img {
+    width: calc(33.75em + 6.25em);
+    height: auto;
+    border-radius: unset inherit inherit unset;
+  }
+
+  .card-texts {
+    width: 60%;
+    padding: 4em;
+    margin-right: 3em;
+  }
+
+  .card-texts h1 {
+    font-size: var(--d-fs-main);
+  }
+
+  .card-texts p {
+    padding: 1em 0;
+  }
+
+  .stat-texts {
+    justify-content: flex-start;
+  }
+
+  .stat-texts h2 {
+    font-size: var(--d-fs-stat);
+  }
+}
